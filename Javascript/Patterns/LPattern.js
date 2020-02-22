@@ -1,5 +1,4 @@
-function solution(N) {
-    // write your code in JavaScript (Node.js 8.9.4)
+function LPattern(N) {
     for(let i = 1; i <= N; i++){
         if(i !== N)
             process.stdout.write('L\n')
@@ -12,4 +11,4 @@ function solution(N) {
     }
 }
 
-console.log(solution(4));
+console.log(LPattern(4));
