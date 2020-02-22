@@ -1,4 +1,4 @@
-function solution(A) {
+function findMaxPositiveNegativeNumber(A) {
     let maximumValue = findMaxFromGivenArray(A);
     
     if(maximumValue > 0){
@@ -18,4 +18,4 @@ function findMaxFromGivenArray(A){
     return Math.max(...A);
 }
 
-console.log(solution([1,-1,10,9,2]))//returns 1
+console.log(findMaxPositiveNegativeNumber([1,-1,10,9,2]))//returns 1
